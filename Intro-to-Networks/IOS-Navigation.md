@@ -69,3 +69,4 @@ To return to the default prompt, use `no hostname`global config command.
 Zero represents the first console interface
 2. Specify the user EXEC mode psswd using the command:
 `password`
+3. Enable user EXEC access using the command: `login`
