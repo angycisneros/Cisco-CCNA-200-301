@@ -29,3 +29,11 @@
 | `end` |Back to Privileged mode |
 | Ctrl + Z | Same 👆🏼|
 
+
+## General syntax for a command
+`Switch>show ip protocols`
+| Switch>      | Prompt            |
+|:-------------|:------------------|
+| show         | Command           |
+| ` `          | Space             |
+| ip protocols | Keyword or arg    |
