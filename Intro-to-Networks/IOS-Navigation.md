@@ -64,12 +64,12 @@ The first one will have this config:
 To return to the default prompt, use `no hostname`global config command.
 
 ## Config psswd
-1. To secure EXEC mode acces, enter this command: 
+-  To secure EXEC mode acces, enter this command: 
 `Switch(config)# line console 0` 
 Zero represents the first console interface
-2. Specify the user EXEC mode psswd using the command:
+1. Specify the user EXEC mode psswd using the command:
 `password`
-3. Enable user EXEC access using the command: `login`
+2. Enable user EXEC access using the command: `login`
 
 `Switch-F1# conf t`
 
