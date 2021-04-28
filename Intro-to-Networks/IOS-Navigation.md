@@ -82,3 +82,13 @@ Zero represents the first console interface
 `Switch-F1(config-line)# end`
 
 `Switch-F1#`
+
+-  To secure privileged EXEC access:
+
+`Switch-F1# conf t`
+
+`Switch-F1(config)# enable secret class`
+
+`Switch-F1(config-line)# exit`
+
+`Switch-F1#`
