@@ -62,3 +62,10 @@ The first one will have this config:
 `Switch-F1(config)#`
 
 To return to the default prompt, use `no hostname`global config command.
+
+## Config psswd
+- 1) To secure EXEC mode acces, enter this command: 
+- 
+`Switch(config)# line console 0` 
+
+Zero represents the first console interface
