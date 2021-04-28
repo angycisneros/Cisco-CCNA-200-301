@@ -136,3 +136,5 @@ To create use `banner motd# the message of this banner is ...`
 `Switch-F1# conf t`
 
 `Switch-F1(config)# banner motd# Authorized Access Only`
+
+
