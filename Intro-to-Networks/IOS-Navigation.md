@@ -51,7 +51,7 @@ Important naming guidelines:
     - Use only letters, digits and dashes
     - Max 64 characters
 
-Example: There are 7 switches spanning seven different floors and they are interconnected together in a network. 
+🤓 Example: There are 7 switches spanning seven different floors and they are interconnected together in a network. 
 
 The first one will have this config:
 
