@@ -7,5 +7,6 @@
 | `Switch#`  `Router#` |Privileged EXEC Mode  | Access to all commands and features. To execute configuration commands |
 
 
-##How to configure the device
+## How to configure the device
+
 👉🏼 Must enter global config mode
