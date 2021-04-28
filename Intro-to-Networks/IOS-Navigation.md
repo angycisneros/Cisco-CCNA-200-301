@@ -124,3 +124,5 @@ Solution: Encryptt all plaintext psswds using `service password-encryption`
 `Switch-F1(config)# service password-encryption`
 
 `Switch-F1#`
+
+Use `show running-config` to verify that they are now encrypted.
