@@ -126,3 +126,12 @@ Solution: Encryptt all plaintext psswds using `service password-encryption`
 `Switch-F1#`
 
 Use `show running-config` to verify that they are now encrypted.
+
+## Banner MSG
+
+Banners are an important method for declaring that only authorized personnel should attempt to access.
+To create use `banner motd# the message of this banner is ...`
+
+`Switch-F1# conf t`
+
+`Switch-F1(config)# banner motd# Authorized Access Only`
