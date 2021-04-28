@@ -11,5 +11,5 @@ Important: You must be a NetAcad student
 1. Log into your “I'm Learning” page
 2. Select Resources
 3. Select Download 
-4. Select the versionmyou require. I'm using version 7.3
+4. Select the version you require. I'm using version 7.3
 5. Save and launch the Packet Tracer install program
