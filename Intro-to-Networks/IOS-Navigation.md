@@ -84,11 +84,32 @@ Zero represents the first console interface
 `Switch-F1#`
 
 -  To secure privileged EXEC access:
+1. Use the `enable secret (here the password)`
+
 
 `Switch-F1# conf t`
 
-`Switch-F1(config)# enable secret class`
+`Switch-F1(config)# enable secret 1234en`
 
 `Switch-F1(config)# exit`
+
+`Switch-F1#`
+
+-  To secure VTY lines:
+1. Enter line VTY mode using:
+`line vty 0 15`
+2. Specify the VTY psswd using: `password`
+3. Enable VTY access using `login`
+
+
+`Switch-F1# conf t`
+
+`Switch-F1(config)# line vty 0 15`
+
+`Switch-F1(config-line)# password 123VTY`
+
+`Switch-F1(config-line)# login`
+
+`Switch-F1(config-line)# end`
 
 `Switch-F1#`
