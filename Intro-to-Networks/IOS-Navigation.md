@@ -39,3 +39,25 @@
 | ip protocols | Keyword or arg    |
 
 Important! Keyword is a specific parameter defined & arg is not predefined
+
+## First config command on any device: hostname
+
+By default, there is a default name and it should be changed to sth more descriptive. 
+Important naming guidelines:
+
+    - Start with a letter
+    - No spaces
+    - End with a letter or digit
+    - Use only letters, digits and dashes
+    - Max 64 characters
+
+Example: There are 7 switches spanning seven different floors and they are interconnected together in a network. 
+
+The first one will have this config:
+
+`Switch# conf t`
+
+`Switch(config)# hostname Switch-F1`
+
+`Switch-F1(config)#`
+
