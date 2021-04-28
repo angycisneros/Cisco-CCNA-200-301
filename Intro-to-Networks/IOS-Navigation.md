@@ -37,3 +37,5 @@
 | show         | Command           |
 | ` `          | Space             |
 | ip protocols | Keyword or arg    |
+
+Important! Keyword is a specific parameter defined & arg is not predefined
