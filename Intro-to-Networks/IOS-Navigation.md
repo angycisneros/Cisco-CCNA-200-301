@@ -3,5 +3,5 @@
 
 | Command mode         | Command mode                               | Description                        |
 |:---------------------|:-------------------------------------------|:--------------------------------------------------------|
-| `Switch>`  `Router>` | User Exec Mode       | Access to only a limited number of basic monitoring commands   |
-| `Switch#`  `Router#` |Privileged EXEC Mode  | Access to all commands and features |
+| `Switch>`  `Router>` | User Exec Mode       | Access to only a limited number of basic monitoring commands. For basic operations  |
+| `Switch#`  `Router#` |Privileged EXEC Mode  | Access to all commands and features. To execute configuration commands |
