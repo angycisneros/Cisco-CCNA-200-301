@@ -113,3 +113,14 @@ Zero represents the first console interface
 `Switch-F1(config-line)# end`
 
 `Switch-F1#`
+
+## Encrypt psswd
+
+Security threat: Anyone can discover the psswds if they have access to the startup-config and running-config files, because they display most psswd in plaintext.
+Solution: Encryptt all plaintext psswds using `service password-encryption`
+
+`Switch-F1# conf t`
+
+`Switch-F1(config)# service password-encryption`
+
+`Switch-F1#`
