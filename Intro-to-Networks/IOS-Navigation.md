@@ -89,6 +89,6 @@ Zero represents the first console interface
 
 `Switch-F1(config)# enable secret class`
 
-`Switch-F1(config-line)# exit`
+`Switch-F1(config)# exit`
 
 `Switch-F1#`
