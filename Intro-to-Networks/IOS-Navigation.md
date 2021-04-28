@@ -70,3 +70,10 @@ Zero represents the first console interface
 2. Specify the user EXEC mode psswd using the command:
 `password`
 3. Enable user EXEC access using the command: `login`
+
+`Switch-F1# conf t`
+`Switch-F1(config)# line console 0`
+`Switch-F1(config-line)# password 1234`
+`Switch-F1(config-line)# login`
+`Switch-F1(config-line)# end`
+`Switch-F1#`
