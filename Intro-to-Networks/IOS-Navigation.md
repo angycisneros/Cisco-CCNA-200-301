@@ -61,3 +61,4 @@ The first one will have this config:
 
 `Switch-F1(config)#`
 
+To return to the default prompt, use `no hostname`global config command.
