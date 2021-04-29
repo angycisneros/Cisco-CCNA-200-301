@@ -138,7 +138,7 @@ To create use `banner motd# the message of this banner is ...`
 `Switch-F1(config)# banner motd# Authorized Access Only`
 
 
-## Router Config
+## Basic Router Config
 
 1. Naming
 
@@ -168,17 +168,26 @@ To create use `banner motd# the message of this banner is ...`
 
 For my labs I prefer to use `transport input all` 
 
-5. Secure all psswds
+5. Secure VTY
+
+`R1(config)# line vty 0 4`
+
+`R1(config-line)# password psswdR1VTY`
+
+`R1(config-line)# login`
+
+
+6. Secure all psswds
 
 `R1(config-line)# exit`
 
 `R1(config)# service password-encryption`
 
-6. Provide legal MSG
+7. Provide legal MSG
 
 `R1(config)# banner motd Authorized Access Only`
 
-7. Save the config
+8. Save the config
 
 `R1(config)# end`
 
