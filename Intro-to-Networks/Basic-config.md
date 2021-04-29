@@ -138,3 +138,34 @@ To create use `banner motd# the message of this banner is ...`
 `Switch-F1(config)# banner motd# Authorized Access Only`
 
 
+## Router Config
+
+1. Naming
+
+`Router(config)# hostname R1`
+
+2. Secure privileged EXEC mode
+
+`R1(config)# enable secret psswdR1en`
+
+3. Secure user EXEC mode
+
+`R1(config)# line console 0`
+
+`R1(config-line)# password password`
+
+`R1(config-line)# login`
+
+4. Secure remote Telnet / SSH access
+
+`R1(config-line)# line vty 0 4`
+
+`R1(config-line)# password psswd R1remote`
+
+`R1(config-line)# login`
+
+`R1(config-line)# transport input {ssh | telnet}`
+
+For my labs I prefer to use `transport input all
+
+
