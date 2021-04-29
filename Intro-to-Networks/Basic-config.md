@@ -181,5 +181,6 @@ For my labs I prefer to use `transport input all`
 7. Save the config
 
 `R1(config)# end`
+
 `R1# copy running-config startup-config`
 
