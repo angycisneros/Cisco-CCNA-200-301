@@ -166,6 +166,6 @@ To create use `banner motd# the message of this banner is ...`
 
 `R1(config-line)# transport input {ssh | telnet}`
 
-For my labs I prefer to use `transport input all
+For my labs I prefer to use `transport input all` 
 
 
