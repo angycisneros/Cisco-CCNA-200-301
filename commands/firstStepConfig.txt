@@ -1,0 +1,24 @@
+en
+conf t
+hostname nameDevice
+line co 0
+password 1234
+login local
+end
+
+conf t
+enable secret 1234en
+exit
+
+conf t
+line vty 0 15
+password 123VTY
+login
+transport input all
+end
+
+conf t
+service password-encryption
+banner motd# Authorized Access Only
+end 
+wr
