@@ -22,10 +22,10 @@
 
 |**Layer**      | **TCP/IP Model** |**Example Protocols**                     |**Description**                                                        |
 |:--------------|:-----------------|:-----------------------------------------|:----------------------------------------------------------------------|
-| L4            | Application      | HTTP, FTP, DNS, SNMP, Telnet, SMTP, POP3 | Represents data to the user + encoding + dialog control               |           
-| L3            | Transport        | TCP, UDP                                 | Supports communication between various devices across diverse network |
-| L2            | Internet         | IP, Datagrams                            | Determines the best path through the network                          |
-| L1            | Network Access   | Ethernet, USB, Bluetooth, IEEE, 802.11   | Controls the hardware devices and media                               | 
+| L4            | Application      | HTTP, HTTPS, REST, FTP, SFTP, TFTP, DNS, SNMP, Telnet, SMTP, POP3, DHCPv4, DHCPv6, SLAAC, IMAP | Represents data to the user + encoding + dialog control               |           
+| L3            | Transport        | Connection-Oriented;TCP <br>Connectionless: UDP</br> | Supports communication between various devices across diverse network |
+| L2            | Internet         | IP: IPv4, IPv6, NAT <br>Messaging: ICMPv4, ICMPv6, ICMPv6 ND </br>Routing Protocols: OSPF, EIGRP, BGP                            | Determines the best path through the network                          |
+| L1            | Network Access   | Data Link Protocols: Ethernet,WLAN <br>Address Resolution: ARP</br>| Controls the hardware devices and media                               | 
 
 
 
