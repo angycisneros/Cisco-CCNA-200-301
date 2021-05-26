@@ -22,10 +22,10 @@
 
 |**Layer**      | **TCP/IP Model** |**Example Protocols**                     |**Description**                                                        |
 |:--------------|:-----------------|:-----------------------------------------|:----------------------------------------------------------------------|
-| L4            | Application      | HTTP, HTTPS, REST, FTP, SFTP, TFTP, DNS, SNMP, Telnet, SMTP, POP3, DHCPv4, DHCPv6, SLAAC, IMAP | Represents data to the user + encoding + dialog control               |           
+| L4            | Application      | Web and Web Service: HTTP, HTTPS, REST <br>File transfer: FTP, SFTP, TFTP </br>Name System: DNS<br>Email: SMTP, POP3, IMAP</br> Host Config:  DHCPv4, DHCPv6, SLAAC | Represents data to the user + encoding + dialog control               |           
 | L3            | Transport        | Connection-Oriented;TCP <br>Connectionless: UDP</br> | Supports communication between various devices across diverse network |
 | L2            | Internet         | IP: IPv4, IPv6, NAT <br>Messaging: ICMPv4, ICMPv6, ICMPv6 ND </br>Routing Protocols: OSPF, EIGRP, BGP                            | Determines the best path through the network                          |
-| L1            | Network Access   | Data Link Protocols: Ethernet,WLAN <br>Address Resolution: ARP</br>| Controls the hardware devices and media                               | 
+| L1            | Network Access   | Data Link Protocols: Ethernet, WLAN <br>Address Resolution: ARP</br>| Controls the hardware devices and media                               | 
 
 
 
@@ -39,3 +39,4 @@
 | L3            | Internet         | Describes protocols that address and route messages through an internetwork  |
 | L2, L1        | Network Access   | OSI defines routing standards and protocols and TCP/IP only describes the handoff from the internet layer to the physical network protocols      | 
 
+### TCP/IP communication Process
